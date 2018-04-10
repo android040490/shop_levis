@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
+$font1: 'Open Sans', sans-serif;
+
+@mixin font-style( $font-size, $color, $font-family: $font1,
+ $font-weight: 400, $text-transform: none){
+    font: {
+        size: $font-size;
+        weight: $font-weight;
+        family: $font-family;
+    }
+    color: $color;
+    text-transform: $text-transform;
+
+}
+
+html, body{
+    // font-size: $fnt-sz;
+    // font-family: $font1;
+    // color: $font-color;
+    @include font-style( $fnt-sz, $font-color);
+    
+}
+
+.primary-header .navbar .navbar-nav{
+    font-size: 14px;
+}
+
+
+    
+h2{
+    @include font-style( 3rem, $heading-col, $font-weight: 800, $text-transform: uppercase); 
+}
+h3{
+    @include font-style( 2.25rem, $heading-col, $font-weight: 800, $text-transform: uppercase);
+}
+h4{
+    @include font-style( 1rem, $heading-col, $text-transform: uppercase);
+}
+h5{
+    @include font-style( 2.25rem, $font-color, $text-transform: uppercase);
+}
+h6{
+    @include font-style( 1rem, $font-color, $font-weight: 800);
+}
+span{
+    font-size: 11px;
+    text-transform: uppercase;
+}
+blockquote{
+    font-style: italic; 
+}
+    

@@ -1,0 +1,59 @@
+{
+    "boot1" : {
+        "name" : "БОТИНКИ LEVI’S",
+        "name2" : "LEATHER JAX BOOTS",
+        "front" : "images/catalog/boot1/front.jpg",
+        "backside" : "images/catalog/boot1/backside.jpg",
+        "side" : "images/catalog/boot1/side.jpg"
+    },
+    
+    "boot2" : {
+        "name" : "БОТИНКИ LEVI’S",
+        "name2" : "LEATHER JAX BOOTS",
+        "front" : "images/catalog/boot2/front.jpg",
+        "backside" : "images/catalog/boot2/backside.jpg",
+        "side" : "images/catalog/boot2/side.jpg"
+    },
+    "boot3" : {
+        "name" : "САПОГИ LEVI’S",
+        "name2" : "LEATHER JAX BOOTS",
+        "front" : "images/catalog/boot3/front.jpg",
+        "backside" : "images/catalog/boot3/backside.jpg",
+        "side" : "images/catalog/boot3/side.jpg"
+    },
+    "boot4" : {
+        "name" : "САПОГИ LEVI’S",
+        "name2" : "LEATHER JAX BOOTS",
+        "front" : "images/catalog/boot4/front.jpg",
+        "backside" : "images/catalog/boot4/backside.jpg",
+        "side" : "images/catalog/boot4/side.jpg"
+    },
+    "boot5" : {
+        "name" : "БОТИНКИ LEVI’S",
+        "name2" : "LEATHER JAX BOOTS",
+        "front" : "images/catalog/boot5/front.jpg",
+        "backside" : "images/catalog/boot5/backside.jpg",
+        "side" : "images/catalog/boot5/side.jpg"
+    },
+    "boot6" : {
+        "name" : "МОКАСИНЫ LEVI’S",
+        "name2" : "LEATHER moccasins ",
+        "front" : "images/catalog/boot6/front.jpg",
+        "backside" : "images/catalog/boot6/backside.jpg",
+        "side" : "images/catalog/boot6/side.jpg"
+    },
+    "boot7" : {
+        "name" : "МОКАСИНЫ LEVI’S",
+        "name2" : "LEATHER moccasins ",
+        "front" : "images/catalog/boot7/front.jpg",
+        "backside" : "images/catalog/boot7/backside.jpg",
+        "side" : "images/catalog/boot7/side.jpg"
+    },
+    "boot8" : {
+        "name1" : "МОКАСИНЫ LEVI’S",
+        "name2" : "LEATHER moccasins ",
+        "front" : "images/catalog/boot8/front.jpg",
+        "backside" : "images/catalog/boot8/backside.jpg",
+        "side" : "images/catalog/boot8/side.jpg"
+    }
+}

@@ -1,0 +1,24 @@
+.primary-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.navbar-nav{
+    margin-right: 0 !important;
+}
+.nav-btn{
+    background: #c41230;
+    display: inline-block;
+    padding: 0.5rem 1rem ;
+    color: #fff;
+    border-radius: 1rem;
+    
+}
+
+@media (max-width: 991px){
+    .primary-header .wrapper .navbar .navbar-nav{
+        background: #fff;
+    }
+}

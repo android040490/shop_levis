@@ -50,7 +50,7 @@ $(function(){
     $(".gallery-section_gallery-item").on("click", function(){
         if ($(document).width()>450){
             $(".gallery-section_detailed-photo-wrapper").css("visibility", "visible");
-            $(".gallery-section_detailed-photo-wrapper img").attr("src", $("img", this).attr("src"));
+            $(".gallery-section_detailed-photo-wrapper > img").attr("src", $("img", this).attr("src"));
             $(".gallery-section_detailed-photo-wrapper").animate({opacity: 1}, 300);
         };
     });

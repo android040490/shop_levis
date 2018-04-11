@@ -238,6 +238,9 @@
         overflow: hidden; 
         margin-bottom: 30px;
         cursor: pointer;
+        img{
+            width: 100%;
+        }
     }
     &_gallery-item:hover::after{
         position: absolute;
@@ -249,12 +252,7 @@
         background-image: url("/src/images/icons/zoomin.png");
     }
     
-    .small-item{
-        height: 265px;
-    }
-    .big-item{
-        height: 375px;
-    }
+    
 
 
     &_detailed-photo-wrapper{
@@ -268,7 +266,7 @@
             position: relative;
             margin: auto;
             // width: max-content;
-            width: 60%;
+            
             img{
                 display: block;
                 width: 100%;
@@ -281,7 +279,7 @@
                 width: 17px;
                 height: 17px;
                 content: "";
-                background-image: url("/src/images/icons/close.jpg")
+                background-image: url("/src/images/icons/close.jpg");
             }
         }
         
@@ -291,6 +289,20 @@
     .gallery-section{
         &_gallery{
             column-count: 2;
+            .gallery-section_gallery-item{
+                img{
+                    width: auto;
+                }
+            }
+            .small-item{
+                height: 265px;
+            }
+            .big-item{
+                height: 375px;
+            }
+            .gallery-section_detailed-photo{
+                width: 90%;
+            }
         }
     }
 }
@@ -299,6 +311,9 @@
         &_gallery{
             column-count: 3;
             padding-top: 100px;
+            .gallery-section_detailed-photo{
+                width: 60%;
+            }
         }
     }
     

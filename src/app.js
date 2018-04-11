@@ -15,6 +15,7 @@ $(function(){
         $(".model-photos_photo-view").height($(".model-photos_photo-view").width()*0.8);
     });
 
+    $(window).trigger("resize");
     // CHOICE OF SHOES
 
     $(".product-item").on("click", function(event){
@@ -47,16 +48,19 @@ $(function(){
 
     // Gallery show detailed photo
     $(".gallery-section_gallery-item").on("click", function(){
-        $(".gallery-section_detailed-photo-wrapper").css("visibility", "visible");
-        $(".gallery-section_detailed-photo-wrapper img").attr("src", $("img", this).attr("src"));
-        $(".gallery-section_detailed-photo-wrapper").animate({opacity: 1}, 300);
-    })
+        if ($(document).width()>450){
+            $(".gallery-section_detailed-photo-wrapper").css("visibility", "visible");
+            $(".gallery-section_detailed-photo-wrapper img").attr("src", $("img", this).attr("src"));
+            $(".gallery-section_detailed-photo-wrapper").animate({opacity: 1}, 300);
+        };
+    });
 
+    // Close detailed photo
     $(".gallery-section_close-photo").on("click", function(){
         $(".gallery-section_detailed-photo-wrapper").animate({opacity: 0}, 300 , function(){
             $(this).css("visibility", "hidden");
         });
     })
 
-    $(window).trigger("resize");
+    
 });
